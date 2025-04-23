@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	"https://github.com/mersonff/desafio-03-go-expert/pkg/events"
+	"github.com/mersonff/desafio-03-go-expert/pkg/events"
 	"github.com/streadway/amqp"
 )
 

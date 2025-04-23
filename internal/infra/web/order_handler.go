@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"https://github.com/mersonff/desafio-03-go-expert/internal/entity"
-	"https://github.com/mersonff/desafio-03-go-expert/internal/usecase"
-	"https://github.com/mersonff/desafio-03-go-expert/pkg/events"
+	"github.com/mersonff/desafio-03-go-expert/internal/entity"
+	"github.com/mersonff/desafio-03-go-expert/internal/usecase"
+	"github.com/mersonff/desafio-03-go-expert/pkg/events"
 )
 
 type WebOrderHandler struct {

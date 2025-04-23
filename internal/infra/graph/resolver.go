@@ -1,6 +1,6 @@
 package graph
 
-import "https://github.com/mersonff/desafio-03-go-expert/internal/usecase"
+import "github.com/mersonff/desafio-03-go-expert/internal/usecase"
 
 // This file will not be regenerated automatically.
 //

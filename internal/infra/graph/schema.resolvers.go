@@ -7,8 +7,8 @@ package graph
 import (
 	"context"
 
-	"https://github.com/mersonff/desafio-03-go-expert/internal/infra/graph/model"
-	"https://github.com/mersonff/desafio-03-go-expert/internal/usecase"
+	"github.com/mersonff/desafio-03-go-expert/internal/infra/graph/model"
+	"github.com/mersonff/desafio-03-go-expert/internal/usecase"
 )
 
 // CreateOrder is the resolver for the createOrder field.

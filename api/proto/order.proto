@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package order;
 
-option go_package = "github.com/mersonff/20-CleanArch/api/proto";
+option go_package = "github.com/mersonff/desafio-03-go-expert/api/proto";
 
 service OrderService {
   rpc ListOrders(ListOrdersRequest) returns (ListOrdersResponse) {}

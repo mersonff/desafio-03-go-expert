@@ -2,8 +2,9 @@ package grpc
 
 import (
 	"context"
-	"github.com/mersonff/20-CleanArch/api/proto"
-	"github.com/mersonff/20-CleanArch/internal/domain"
+
+	"github.com/mersonff/desafio-03-go-expert/api/proto"
+	"github.com/mersonff/desafio-03-go-expert/internal/domain"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )
 
@@ -57,4 +58,4 @@ func (s *OrderServer) CreateOrder(ctx context.Context, req *proto.CreateOrderReq
 			UpdatedAt:  timestamppb.New(order.UpdatedAt).String(),
 		},
 	}, nil
-} 
+}

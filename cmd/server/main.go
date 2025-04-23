@@ -1,23 +1,20 @@
 package main
 
 import (
-	"context"
 	"database/sql"
-	"fmt"
 	"log"
 	"net"
 	"net/http"
 
 	"github.com/99designs/gqlgen/graphql/handler"
 	"github.com/99designs/gqlgen/graphql/playground"
-	"github.com/mersonff/20-CleanArch/api/proto"
-	"github.com/mersonff/20-CleanArch/internal/domain"
-	"github.com/mersonff/20-CleanArch/internal/infra/graphql"
-	"github.com/mersonff/20-CleanArch/internal/infra/grpc"
-	"github.com/mersonff/20-CleanArch/internal/infra/http/handlers"
-	"github.com/mersonff/20-CleanArch/internal/infra/repository"
-	"github.com/mersonff/20-CleanArch/internal/usecase"
 	_ "github.com/go-sql-driver/mysql"
+	"github.com/mersonff/desafio-03-go-expert/api/proto"
+	"github.com/mersonff/desafio-03-go-expert/internal/infra/graphql"
+	"github.com/mersonff/desafio-03-go-expert/internal/infra/grpc"
+	"github.com/mersonff/desafio-03-go-expert/internal/infra/http/handlers"
+	"github.com/mersonff/desafio-03-go-expert/internal/infra/repository"
+	"github.com/mersonff/desafio-03-go-expert/internal/usecase"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 )
@@ -78,4 +75,4 @@ func main() {
 	if err := grpcServer.Serve(lis); err != nil {
 		log.Fatalf("failed to serve: %v", err)
 	}
-} 
+}

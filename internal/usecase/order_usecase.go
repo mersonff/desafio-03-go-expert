@@ -1,9 +1,10 @@
 package usecase
 
 import (
-	"github.com/google/uuid"
-	"github.com/mersonff/20-CleanArch/internal/domain"
 	"time"
+
+	"github.com/google/uuid"
+	"github.com/mersonff/desafio-03-go-expert/internal/domain"
 )
 
 type orderUseCase struct {
@@ -36,4 +37,4 @@ func (u *orderUseCase) CreateOrder(price, tax float64) (*domain.Order, error) {
 
 func (u *orderUseCase) ListOrders() ([]*domain.Order, error) {
 	return u.orderRepository.List()
-} 
+}

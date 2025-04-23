@@ -2,8 +2,9 @@ package handlers
 
 import (
 	"encoding/json"
-	"github.com/mersonff/20-CleanArch/internal/domain"
 	"net/http"
+
+	"github.com/mersonff/desafio-03-go-expert/internal/domain"
 )
 
 type OrderHandler struct {
@@ -71,4 +72,4 @@ func (h *OrderHandler) List(w http.ResponseWriter, r *http.Request) {
 
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(response)
-} 
+}

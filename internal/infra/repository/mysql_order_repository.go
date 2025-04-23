@@ -2,7 +2,8 @@ package repository
 
 import (
 	"database/sql"
-	"github.com/mersonff/20-CleanArch/internal/domain"
+
+	"github.com/mersonff/desafio-03-go-expert/internal/domain"
 )
 
 type MySQLOrderRepository struct {
@@ -64,4 +65,4 @@ func (r *MySQLOrderRepository) List() ([]*domain.Order, error) {
 	}
 
 	return orders, nil
-} 
+}

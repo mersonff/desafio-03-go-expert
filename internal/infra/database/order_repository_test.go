@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"testing"
 
-	"https://github.com/mersonff/desafio-03-go-expert/internal/entity"
+	"github.com/mersonff/desafio-03-go-expert/internal/entity"
 	"github.com/stretchr/testify/suite"
 
 	// sqlite3

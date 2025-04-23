@@ -13,7 +13,7 @@ import (
 
 	"github.com/99designs/gqlgen/graphql"
 	"github.com/99designs/gqlgen/graphql/introspection"
-	"https://github.com/mersonff/desafio-03-go-expert/internal/infra/graph/model"
+	"github.com/mersonff/desafio-03-go-expert/internal/infra/graph/model"
 	gqlparser "github.com/vektah/gqlparser/v2"
 	"github.com/vektah/gqlparser/v2/ast"
 )

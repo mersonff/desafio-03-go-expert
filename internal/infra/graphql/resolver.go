@@ -3,7 +3,7 @@ package graphql
 import (
 	"context"
 
-	"github.com/mersonff/20-CleanArch/internal/domain"
+	"github.com/mersonff/desafio-03-go-expert/internal/domain"
 )
 
 type Resolver struct {
@@ -59,4 +59,4 @@ func (r *Resolver) CreateOrder(ctx context.Context, input CreateOrderInput) (*Or
 		CreatedAt:  order.CreatedAt.String(),
 		UpdatedAt:  order.UpdatedAt.String(),
 	}, nil
-} 
+}

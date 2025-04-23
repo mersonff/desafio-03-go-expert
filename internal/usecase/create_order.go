@@ -1,8 +1,8 @@
 package usecase
 
 import (
-	"https://github.com/mersonff/desafio-03-go-expert/internal/entity"
-	"https://github.com/mersonff/desafio-03-go-expert/pkg/events"
+	"github.com/mersonff/desafio-03-go-expert/internal/entity"
+	"github.com/mersonff/desafio-03-go-expert/pkg/events"
 )
 
 type OrderInputDTO struct {

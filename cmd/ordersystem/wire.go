@@ -6,13 +6,13 @@ package main
 import (
 	"database/sql"
 
-	"https://github.com/mersonff/desafio-03-go-expert/internal/entity"
-	"https://github.com/mersonff/desafio-03-go-expert/internal/event"
-	"https://github.com/mersonff/desafio-03-go-expert/internal/infra/database"
-	"https://github.com/mersonff/desafio-03-go-expert/internal/infra/web"
-	"https://github.com/mersonff/desafio-03-go-expert/internal/usecase"
-	"https://github.com/mersonff/desafio-03-go-expert/pkg/events"
 	"github.com/google/wire"
+	"github.com/mersonff/desafio-03-go-expert/internal/entity"
+	"github.com/mersonff/desafio-03-go-expert/internal/event"
+	"github.com/mersonff/desafio-03-go-expert/internal/infra/database"
+	"github.com/mersonff/desafio-03-go-expert/internal/infra/web"
+	"github.com/mersonff/desafio-03-go-expert/internal/usecase"
+	"github.com/mersonff/desafio-03-go-expert/pkg/events"
 )
 
 var setOrderRepositoryDependency = wire.NewSet(
