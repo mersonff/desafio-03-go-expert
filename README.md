@@ -18,8 +18,8 @@ Este projeto implementa um serviço de Orders utilizando Clean Architecture, ofe
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/mersonff/20-CleanArch.git
-cd 20-CleanArch
+git clone https://github.com/mersonff desafio-03-go-expert.git
+cd desafio-03-go-expert
 ```
 
 2. Inicie os serviços com Docker Compose:
