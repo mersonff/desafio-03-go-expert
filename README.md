@@ -18,7 +18,7 @@ Este projeto implementa um serviço de Orders utilizando Clean Architecture, ofe
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/mersonff desafio-03-go-expert.git
+git clone https://github.com/mersonff/desafio-03-go-expert.git
 cd desafio-03-go-expert
 ```
 
