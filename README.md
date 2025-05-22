@@ -4,9 +4,9 @@ Este é um sistema de pedidos implementado usando Clean Architecture, oferecendo
 
 ## Tecnologias Utilizadas
 
-- Go
-- MySQL
-- RabbitMQ
+- Go 1.23
+- MySQL 8.0
+- RabbitMQ 3
 - Docker
 - gRPC
 - GraphQL
@@ -40,7 +40,6 @@ Este é um sistema de pedidos implementado usando Clean Architecture, oferecendo
 
 - Docker
 - Docker Compose
-- Go 1.22+
 
 ## Como Executar
 
@@ -50,15 +49,15 @@ git clone https://github.com/mersonff/desafio-03-go-expert.git
 cd desafio-03-go-expert
 ```
 
-2. Inicie os containers:
+2. Inicie a aplicação:
 ```bash
 docker compose up -d
 ```
 
-3. Execute a aplicação:
-```bash
-go run cmd/ordersystem/main.go
-```
+A aplicação estará disponível em:
+- REST API: http://localhost:8080
+- GraphQL Playground: http://localhost:8081
+- gRPC: localhost:50051
 
 ## Testando os Endpoints
 
