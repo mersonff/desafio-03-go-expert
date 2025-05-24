@@ -2,6 +2,10 @@
 
 Este é um sistema de pedidos implementado usando Clean Architecture, oferecendo múltiplas interfaces para interação: REST API, gRPC e GraphQL.
 
+# Build OK
+
+![Screenshot 2025-05-23 223430](https://github.com/user-attachments/assets/ef04d805-eabe-46b2-911a-06b58b00d524)
+
 ## Tecnologias Utilizadas
 
 - Go 1.23
