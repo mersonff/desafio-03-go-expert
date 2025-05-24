@@ -4,7 +4,11 @@ Este é um sistema de pedidos implementado usando Clean Architecture, oferecendo
 
 # Build OK
 
+docker compose up -d --build
 ![Screenshot 2025-05-23 223430](https://github.com/user-attachments/assets/ef04d805-eabe-46b2-911a-06b58b00d524)
+
+docker compose up --build
+![image](https://github.com/user-attachments/assets/a64bfc38-c2cb-4174-acc9-f4fcf93bc01c)
 
 ## Tecnologias Utilizadas
 
